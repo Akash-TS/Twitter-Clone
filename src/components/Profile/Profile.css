@@ -1,0 +1,119 @@
+h1, h3, p {
+    margin: 0;
+}
+
+.profile {
+    height: 100%;
+    overflow-y: auto;
+}
+
+.user-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.user-details .images {
+    position: relative;
+}
+
+.user-details .images .banner {
+    z-index: 1;
+}
+
+.user-details .images .banner img {
+    width: 100%;
+}
+
+.user-details .images .dp {
+    z-index: 2;
+    position: absolute;
+    top: 160px;
+    left: 30px;
+}
+
+.user-details .images .dp img {
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    border: 5px solid black ;
+}
+
+.user-details .user-data {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0 15px;
+}
+
+.user-details .user-data h1 {
+    font-size: 18px;
+}
+
+.user-details .user-data h3 {
+    font-size: 14px;
+    font-weight: normal;
+    color: #71767B;
+}
+
+.user-details .user-data .bio {
+    font-size: 14px;
+    color: #E7E9EA;
+}
+
+.user-details .user-data .stats {
+    display: flex;
+    gap: 20px;
+    font-size: 12px;
+}
+
+.user-details .user-data .stats .stat {
+    display: flex;
+    gap: 5px;
+}
+
+.user-details .user-data .stats .stat span:nth-child(1) {
+    font-weight: bold;
+}
+
+.user-details .user-data .stats .stat span:nth-child(2) {
+    color: #71767B;
+}
+
+.tabs {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    border-bottom: 0.5px solid #555555;
+}
+
+.tabs .tab {
+    height: 30px;
+    padding-bottom: 5px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    cursor: pointer;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tabs a.active .tab::after {
+    content: '';
+    width: 65%;
+    height: 3px;
+    display: block;
+    background-color: #1DA1F2;
+    border-radius: 10px;
+}
+
+.tabs a {
+    text-decoration: none !important;
+}
+
+.tabs .tab:hover {
+    background-color: #ffffff13;
+}

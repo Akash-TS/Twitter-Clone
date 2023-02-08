@@ -1,0 +1,150 @@
+.quicklinks {
+    flex: 1.5;
+    overflow-y: scroll;
+}
+
+.quicklinks::-webkit-scrollbar {
+    display: none;
+  }
+
+.searchbar {
+    display: flex;
+    background-color: #ffffff23;
+    padding: 13px 20px;
+    width: 300px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    margin-left: 30px;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.input{
+    border: none;
+    outline: none;
+    cursor: pointer;
+    width: 250px;
+    background-color: #3736360e;
+    margin: 3px;
+    color: whitesmoke;
+}
+
+::-webkit-input-placeholder{
+    color:#ffffff23;
+}
+
+.first-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff23;
+    width: 300px;
+    padding: 13px 20px;
+    border: none;
+    border-radius: 15px;
+    margin-left: 30px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.first-container p{
+    color: #858282de;
+}
+
+.first-container h5{
+    color: #1DA1F2;
+}
+
+.trending-list:hover {
+    background-color: #86858528;
+}
+
+.second-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff23;
+    width: 300px;
+    padding: 13px 20px;
+    border: none;
+    border-radius: 15px;
+    margin-left: 30px;
+    margin-top: 10px;
+}  
+
+.users {
+    padding: 10px;
+    border-radius: 35px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 15px;
+    justify-content: space-between;
+}
+
+.userlist{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.userlist:hover{
+    background-color: #86858528;
+    width: 10px 250px;
+    padding: 0px;
+    border: none;
+    border-radius: 10px;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+.users .users-image-container img {
+    border-radius: 50%;
+}
+
+.users .users-details {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.users .users-details h3 {
+    font-size: 14px;
+    margin: 0;
+}
+
+.users .users-details h5 {
+    font-size: 10px;
+    margin: 0;
+}
+
+.copyright{
+    display: flex;
+    color: #919191b3;
+    font-size: 15px;
+    width: 300px;
+    border: none;
+    padding: 20px 20px;
+    margin: 20px 20px;
+}
+
+button {
+    border: none;
+    background-color: #ffffff;
+    color: black;
+    padding: 10px 0;
+    width: 50%;
+    border-radius: 25px;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.users-image-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+

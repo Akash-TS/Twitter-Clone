@@ -1,0 +1,180 @@
+.main {
+    flex: 2;
+    border-left: 0.5px solid #555555;
+    border-right: 0.5px solid #555555;
+}
+
+.home {
+    height: 100%;
+    overflow-y: auto;
+}
+
+.home main {
+    
+}
+
+header {
+    z-index: 3;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    backdrop-filter: blur(10px);
+}
+
+header h1 {
+    font-size: 18px;
+    margin: 0;
+}
+
+header p {
+    font-size: 12px;
+    margin: 0;
+}
+
+header .profile-header {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+header .profile-header .back-container svg {
+    width: 25px;
+    fill: #ffffff;
+}
+
+
+.post-form {
+    margin-top: 10px;
+    padding: 10px;
+    border-bottom: 0.5px solid #555555;
+}
+
+.post-form .input-container {
+    display: flex;
+    gap: 20px;
+}
+
+.post-form img {
+    border-radius: 50%;
+}
+
+.post-form .textarea-container {
+    flex-grow: 1;
+}
+
+textarea::placeholder {
+    color: #808080d7;
+    font-size: 20px; 
+}
+
+.post-form textarea {
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 20px;
+    border: none;
+    width: 98%;
+    outline: none;
+    resize: none;
+    margin-top: 10px;
+}
+
+.post-form .tweet-btn-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.post-form .tweet-btn {
+    border: none;
+    cursor: pointer;
+    background-color: #1DA1F2;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 25px;
+    width: auto;
+    font-size: 14px;
+}
+
+
+
+.tweet {
+    display: flex;
+    gap: 15px;
+    padding: 10px;
+    border-bottom: 0.5px solid #555555;
+}
+
+.tweet .tweet-details {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.tweet .user-image-container img {
+    border-radius: 50%;
+}
+
+.tweet .tweet-meta-details {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+
+.tweet .tweet-meta-details .user-fullname {
+    font-size: 14px;
+}
+
+.tweet .tweet-meta-details svg {
+    width: 20px;
+    fill: #1DA1F2;
+}
+
+.tweet .tweet-meta-details .username,
+.tweet .tweet-meta-details .dot,
+.tweet .tweet-meta-details .time-ago {
+    color: #71767B;
+    font-size: 12px;
+}
+
+.tweet p {
+    margin: 0;
+}
+
+.tweet .stats {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tweet .stats .stat {
+    display: flex;
+    gap: 3px;
+    align-items: center;
+    color: #ffffff;
+    padding: 10px 0;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 30px;
+}
+
+.tweet .stats .stat.blue:hover {
+    background-color: #1d9cf037;
+}
+
+.tweet .stats .stat.green:hover {
+    background-color: #00ba7c45;
+}
+
+.tweet .stats .stat.red:hover {
+    background-color: #f9188045;
+}
+
+
+.tweet .stats .stat svg {
+    width: 16px;
+    fill: #71767B;
+}
+
+.tweet .stats .stat span {
+    font-size: 12px;
+    color: #71767B;
+}
